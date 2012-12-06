@@ -11,25 +11,32 @@ public class Bean2Json {
 
     public ExtJsTreeNode init() {
         ExtJsTreeNode tree = new ExtJsTreeNode();
-        
+
         tree.setId("Root");
         tree.setText("Root");
         tree.setLeaf(false);
-        // Build Children
+
+        // Build children items
         List<ExtJsTreeNode> children = buildChildren();
         tree.setChildren(children);
-        
+
         return tree;
     }
 
     private List<ExtJsTreeNode> buildChildren() {
         List<ExtJsTreeNode> nodes = new ArrayList<ExtJsTreeNode>();
-        
+
         for (int i = 0; i < 10; i++) {
             ExtJsTreeNode node = new ExtJsTreeNode();
+
             node.setId("Node" + i);
             node.setText("Node" + i);
-            node.setLeaf(true);
+            node.setLeaf(false);
+            List<ExtJsTreeNode> children = new ArrayList<ExtJsTreeNode>();
+            children.add(new ExtJsTreeNode("Child", "Child", true, false, null));
+
+            node.setChildren(children);
+
             nodes.add(node);
         }
         
@@ -38,8 +45,8 @@ public class Bean2Json {
     
     public void convertToJson(ExtJsTreeNode tree) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
-
-        mapper.setSerializationInclusion(Include.NON_NULL); // Don't output null fields
+        // Don't output null fields
+        mapper.setSerializationInclusion(Include.NON_NULL);
         String json = mapper.writeValueAsString(tree);
 
         System.out.println(json);

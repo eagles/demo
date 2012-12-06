@@ -73,7 +73,7 @@ public class ExtJsTreeNode {
     public void setChildren(List <ExtJsTreeNode> children) {
         this.children = children;
     }
-    
+
     public ExtJsTreeNode() {}
 
     public ExtJsTreeNode(String id, String text, Boolean leaf, Boolean expanded, List<ExtJsTreeNode> children) {
