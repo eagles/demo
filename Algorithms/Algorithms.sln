@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{CC4757A8-35DC-4AD3-BCE1-F850E5D2642E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Test", "Fibonacci.Test\Fibonacci.Test.csproj", "{6D6E52A0-CDF4-46DE-BD20-ABBC7BD6FB55}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Algorithms.vsmdi
@@ -29,6 +33,14 @@ Global
 		{7E15ED8E-EC6C-4271-B274-112B55A75C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E15ED8E-EC6C-4271-B274-112B55A75C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E15ED8E-EC6C-4271-B274-112B55A75C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4757A8-35DC-4AD3-BCE1-F850E5D2642E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4757A8-35DC-4AD3-BCE1-F850E5D2642E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4757A8-35DC-4AD3-BCE1-F850E5D2642E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4757A8-35DC-4AD3-BCE1-F850E5D2642E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6E52A0-CDF4-46DE-BD20-ABBC7BD6FB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6E52A0-CDF4-46DE-BD20-ABBC7BD6FB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6E52A0-CDF4-46DE-BD20-ABBC7BD6FB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6E52A0-CDF4-46DE-BD20-ABBC7BD6FB55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

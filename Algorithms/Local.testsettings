@@ -26,6 +26,7 @@
             <CodeCoverage xmlns="">
               <Regular>
                 <CodeCoverageItem binaryFile="BubbleSort\bin\Debug\BubbleSort.dll" pdbFile="BubbleSort\bin\Debug\BubbleSort.pdb" instrumentInPlace="true" />
+                <CodeCoverageItem binaryFile="Fibonacci\bin\Debug\Fibonacci.dll" pdbFile="Fibonacci\bin\Debug\Fibonacci.pdb" instrumentInPlace="true" />
               </Regular>
             </CodeCoverage>
           </Configuration>
