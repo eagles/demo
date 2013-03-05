@@ -111,6 +111,5 @@ UpgradeLog*.XML
 *.class
 
 # Package Files #
-*.jar
 *.war
 *.ear

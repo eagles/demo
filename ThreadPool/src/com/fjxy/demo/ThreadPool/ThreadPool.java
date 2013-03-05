@@ -1,12 +1,12 @@
 /*
- *  $URL: https://athena.redprairie.com/svn/prod/devtools/trunk/bootstrap/eclipse/codetemplates.xml $
- *  $Author: mlange $
- *  $Date: 2009-06-19 11:49:22 +0800 (Fri, 19 Jun 2009) $
+ *  $URL: https://raw.github.com/eagles/devtools/master/bootstrap/eclipse/codetemplates.xml $
+ *  $Author: Eason Wu $
+ *  $Date: 2013-02-18 11:49:22 +0800 (Mon, 18 Feb 2013) $
  *  
  *  $Copyright-Start$
  *
  *  Copyright (c) 2013
- *  RedPrairie Corporation
+ *  Eason Wu
  *  All Rights Reserved
  *
  *  This software is furnished under a corporate license for use on a
@@ -14,11 +14,7 @@
  *  above copyright) only for use on such a system.
  *
  *  The information in this document is subject to change without notice
- *  and should not be construed as a commitment by RedPrairie Corporation.
- *
- *  RedPrairie Corporation assumes no responsibility for the use of the
- *  software described in this document on equipment which has not been
- *  supplied or approved by RedPrairie Corporation.
+ *  and should not be construed as a commitment by Eason Wu.
  *
  *  $Copyright-End$
  */
@@ -28,7 +24,7 @@ package com.fjxy.demo.ThreadPool;
 import java.util.LinkedList;
 
 /**
- * 固定大小的线程池
+ * 一个简单的线程池
  * 出处： http://sunnylocus.iteye.com/blog/223327
  * 
  * 线程池的作用:
@@ -45,14 +41,14 @@ import java.util.LinkedList;
  * 多的内存，而把服务器累趴下(每个线程需要大约1MB内存，线程开的越多，消耗的
  * 内存也就越大，最后死机)
  * 
- * Copyright (c) 2013 RedPrairie Corporation
+ * Copyright (c) 2013 Eason Wu
  * All Rights Reserved
  * 
  * @author eason.wu
  */
 public class ThreadPool extends ThreadGroup {
 
-    private boolean isClosed = false; // 线程池是否关闭
+    private boolean isClosed = false;   // 线程池是否关闭
     private LinkedList<Runnable> workQueue;     // 工作队列
     private static int threadPoolID = 1;  // 线程池ID
 
@@ -135,7 +131,7 @@ public class ThreadPool extends ThreadGroup {
     /**
      * 内部类，工作线程，负责从工作队列中取出任务，并执行
      * 
-     * Copyright (c) 2013 RedPrairie Corporation
+     * Copyright (c) 2013 Eason Wu
      * All Rights Reserved
      * 
      * @author eason.wu

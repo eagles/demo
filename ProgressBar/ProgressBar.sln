@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarExDemo", "Progre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarEx", "ProgressBarEx\ProgressBarEx.csproj", "{C30441F2-F0B4-4F3F-849F-8C0BB860024A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformProgressDemo", "WinformProgressDemo\WinformProgressDemo.csproj", "{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{C30441F2-F0B4-4F3F-849F-8C0BB860024A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C30441F2-F0B4-4F3F-849F-8C0BB860024A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C30441F2-F0B4-4F3F-849F-8C0BB860024A}.Release|x86.ActiveCfg = Release|Any CPU
+		{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{53BD68BD-31D7-4EB7-A9F8-F575C78EB4F7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
