@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apps\FrmValidCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Apps\FrmValidCode.Designer.cs">
+      <DependentUpon>FrmValidCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ValidCode.cs" />
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,12 +67,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControls\frmDemo.cs">
+    <Compile Include="Apps\frmDemo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\frmDemo.Designer.cs">
+    <Compile Include="Apps\frmDemo.Designer.cs">
       <DependentUpon>frmDemo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Apps\FrmValidCode.resx">
+      <DependentUpon>FrmValidCode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,7 +91,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControls\frmDemo.resx">
+    <EmbeddedResource Include="Apps\frmDemo.resx">
       <DependentUpon>frmDemo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

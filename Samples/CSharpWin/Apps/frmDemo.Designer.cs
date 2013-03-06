@@ -1,6 +1,6 @@
-﻿namespace CSharpWin.UserControls
+﻿namespace CSharpWin.Apps
 {
-    partial class frmDemo
+    partial class FrmDemo
     {
         /// <summary> 
         /// Required designer variable.

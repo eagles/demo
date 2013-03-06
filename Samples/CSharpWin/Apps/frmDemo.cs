@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace CSharpWin.UserControls
+namespace CSharpWin.Apps
 {
-    public partial class frmDemo : UserControl
+    public partial class FrmDemo : UserControl
     {
-        public frmDemo()
+        public FrmDemo()
         {
             InitializeComponent();
         }
